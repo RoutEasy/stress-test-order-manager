@@ -113,14 +113,10 @@ const generateUniqueAddressInSaoPaulo = () => {
     'Rua Madre Cabrini',
     'Rua Atica'
   ];
-    
-    // Gerar índices aleatórios para selecionar itens dos arrays
+
     const streetNameIndex = Math.floor(Math.random() * streetNames.length);
-    
-    // Gerar um número de edifício aleatório
-    const buildingNumber = Math.floor(Math.random() * 1000) + 1; // Números de 1 a 1000
+    const buildingNumber = Math.floor(Math.random() * 1000) + 1;
   
-    // Montar e retornar o endereço
     return `${streetNames[streetNameIndex]}, ${buildingNumber}, São Paulo, SP, Brasil`;
 }
   

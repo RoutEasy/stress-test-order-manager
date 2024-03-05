@@ -47,15 +47,15 @@ With the environment now set up, you are ready to initiate the stress test on th
 
 2. **Monitor and Analyze Results**: As the test runs, monitor the system's performance closely. The console will display important metrics in different stages:
 
-   - **Etapa de criação dos order managers**
+   - **Order managers creation stage**
      - `Total time Queue: {time in ms}`
      - `Average time Queue: {time in ms}`
 
-   - **Etapa de processamento de order manager**
+   - **Order manager processing step**
      - `Processing Order Managers...`
      - `Order Managers Processed: {processing/total}`
 
-   - **Etapa de resultado do processamento**
+   - **Processing result step**
      - `Total time Processing: {time in ms}`
      - `Average time Processing: {time in ms}`
 
